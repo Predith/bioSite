@@ -20,11 +20,25 @@ body {
     margin-right: 100px;
 }
 
-h1, h2, h3, h4 {
+h1, h4 {
     background-color: #003366;     /* Deep blue */
     color: #ffffff;                /* White text */
     border: 1px solid #D6A800;     /* Gold border */
     padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    background-color: #003366;     /* Deep blue */
+    color: #ffffff;                /* White text */
+    border: 1px solid #D6A800;     /* Gold border */
+    padding: 10px;
+}
+
+h3 {
+    background-color: #003366;     /* Deep blue */
+    color: #ffffff;                /* White text */
+    border: 1px solid #D6A800;     /* Gold border */
 }
 
 a {
@@ -38,4 +52,11 @@ a:hover {
 
 a:visited {
     color: #800080;                /* Purple for visited links */
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
